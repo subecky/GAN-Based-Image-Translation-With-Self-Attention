@@ -1,3 +1,7 @@
-python train.py --dataroot image_folder_path --name init_rrff_v1 --model cycle_ff --save_epoch_freq 1 --netG rff
+1. Please run the following comand to train the model
 
-python test.py --dataroot image_folder_path --name init_rrff_v1 --model cycle_ff --netG rff --epoch 20 --num_test 33370
+      python train.py --dataroot image_folder_path --name init_rrff_v1 --model cycle_ff --save_epoch_freq 1 --netG rff
+
+2. Please run the following comand to get test output results
+
+      python test.py --dataroot image_folder_path --name init_rrff_v1 --model cycle_ff --netG rff --epoch 20 --num_test 33370

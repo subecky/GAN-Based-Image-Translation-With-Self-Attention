@@ -12,5 +12,5 @@ Train the model with the following command:
 python train.py --dataroot image_folder_path --name init_rrff_v1 --model cycle_ff --save_epoch_freq 1 --netG rff
 ```
 # Reference
-1. <a href="url">https://github.com/JoshuaEbenezer/cwgan</a>
-2. <a href="url">https://blog.shikoan.com/sagan-self-attention/</a>
+[1] <a href="url">https://github.com/JoshuaEbenezer/cwgan</a>
+[2] <a href="url">https://blog.shikoan.com/sagan-self-attention/</a>

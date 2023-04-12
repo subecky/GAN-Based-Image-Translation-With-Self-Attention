@@ -1,0 +1,11 @@
+pip install dominate
+python -m venv .venv
+.venv\Scripts\activate.bat
+ deactivate
+python -m pip freeze > requirements.txt
+python -m pip install -r requirements.txt
+python -m visdom.server (別コマンドプロント)
+
+python train.py --dataroot D:/dataset/INIT/256_256 --name init_rrff_v1 --model cycle_ff --save_epoch_freq 1 --netG rff
+
+python test.py --dataroot D:/dataset/INIT/test/ --name init_rrff_v1 --model cycle_ff --netG rff --epoch 20 --num_test 33370

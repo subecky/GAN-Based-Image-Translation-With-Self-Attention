@@ -1,5 +1,5 @@
 # GAN-based Image Translation Model with Self-attention for Nighttime Dashcam Data Augmentation
-This repository is the implementation of GAN based image translation model with self-attention module.
+This repository is the implementation of GAN based image translation model by incorporating self-attention module into CycleGAN and TSIT.
 
 # Usage
 Install Python 3.7.13, torch==1.11.0, torchvision==0.12.0 <br />
